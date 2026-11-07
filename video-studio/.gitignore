@@ -5,3 +5,4 @@ samples/
 renders/
 *.log
 .hyperframes/
+work-ref/

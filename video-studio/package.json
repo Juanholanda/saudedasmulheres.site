@@ -1,0 +1,30 @@
+{
+  "name": "video-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Estúdio de vídeo com IA: Remotion + Hyperframes + FFmpeg + Whisper + yt-dlp",
+  "type": "module",
+  "dependencies": {
+    "@fontsource/cinzel": "^5.3.0",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/poppins": "^5.3.0",
+    "@remotion/bundler": "^4.0.541",
+    "@remotion/cli": "^4.0.541",
+    "@remotion/fonts": "^4.0.541",
+    "@remotion/media-utils": "^4.0.541",
+    "@remotion/renderer": "^4.0.541",
+    "gsap": "^3.15.0",
+    "hyperframes": "^0.9.19",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.541"
+  },
+  "scripts": {
+    "remotion:studio": "remotion studio remotion/src/index.ts",
+    "remotion:render": "remotion render remotion/src/index.ts",
+    "hf:preview": "cd hyperframes-teste && hyperframes preview",
+    "hf:render": "cd hyperframes-teste && hyperframes render",
+    "setup": "bash scripts/setup.sh",
+    "testar": "bash scripts/testar-tudo.sh"
+  }
+}

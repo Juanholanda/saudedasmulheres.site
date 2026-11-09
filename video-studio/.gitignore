@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+out/
+samples/
+renders/
+*.log
+.hyperframes/
+work-ref/
